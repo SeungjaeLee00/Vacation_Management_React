@@ -1,9 +1,10 @@
-import './App.css';
+import "./App.css";
+import Router from "./routes/Router";
 
 function App() {
   return (
     <div className="App">
-      리액트 리팩토링
+      <Router />
     </div>
   );
 }

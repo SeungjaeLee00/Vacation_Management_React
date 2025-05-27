@@ -1,0 +1,30 @@
+.calendarWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-top: 20px;
+}
+
+.calendarContainer {
+  width: 90vw;
+  max-width: 1000px;
+  padding: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.sunday .fc-daygrid-day-number,
+.holiday .fc-daygrid-day-number {
+  color: red !important;
+}
+
+.fc {
+  font-size: 15px;
+}
+
+@media (max-width: 768px) {
+  .fc {
+    font-size: 11px;
+  }
+}
